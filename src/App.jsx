@@ -6,12 +6,15 @@ import Timeline from "./components/Timeline"
 import dataImg from "./data"
 import { listTools } from "./data"
 import { Typewriter } from 'react-simple-typewriter'
+import { Analytics } from '@vercel/analytics'
+
 
 function App() {
 
 
     return (
         <>
+            <Analytics />
             <div className='hero grid md:grid-cols-2 lg:pt-20 sm:pt-10 items-center xl:gap-0 gap-6 grid-cols-1' id="beranda">
                 <div className="animate__animated animate__fadeInUp animate__delay-1s">
                     {/* <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
