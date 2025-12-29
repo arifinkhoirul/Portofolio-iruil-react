@@ -108,13 +108,14 @@ export const listTools = [
 import Proyek1 from "/assets/proyek/proyek1.jpg";
 import Proyek2 from "/assets/proyek/proyek2.png";
 import Proyek3 from "/assets/proyek/proyek3.png";
+import Proyek4 from "/assets/proyek/proyek4.png";
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
     nama: "Website Karang Taruna",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "Website profil dan informasi kegiatan Karang Taruna untuk publikasi program, struktur organisasi, dan dokumentasi aktivitas pemuda.",
     tools: ["Laravel", "XAMPP"],
     dad: "200",
     link: "http://karangtaruna.online/"
@@ -123,7 +124,7 @@ export const listProyek = [
     id: 2,
     gambar: Proyek2,
     nama: "Apllication HRIS",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "Aplikasi Human Resource Information System untuk mengelola data karyawan, absensi, cuti, dan administrasi kepegawaian.",
     tools: ["Laravel", "XAMPP"],
     dad: "300",
     link: "#"
@@ -132,9 +133,18 @@ export const listProyek = [
     id: 3,
     gambar: Proyek3,
     nama: "E-Commerce",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "Platform e-commerce sederhana untuk menampilkan produk, melakukan pemesanan, dan mengelola transaksi tanpa payment gateway.",
     tools: ["Laravel", "XAMPP", "Livewire", "Filament"],
     dad: "400",
     link: "https://github.com/arifinkhoirul/ecommerce-not-payment-gateway"
+  },
+  {
+    id: 4,
+    gambar: Proyek4,
+    nama: "App Management Keuangan Personal",
+    desk: "Aplikasi pengelolaan keuangan pribadi untuk mencatat pemasukan, pengeluaran, tabungan, dan investasi secara terstruktur.",
+    tools: ["Laravel", "XAMPP", "Vue"],
+    dad: "400",
+    link: "https://github.com/arifinkhoirul/my-finance"
   },
 ];
