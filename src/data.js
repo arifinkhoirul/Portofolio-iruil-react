@@ -145,6 +145,6 @@ export const listProyek = [
     desk: "Aplikasi pengelolaan keuangan pribadi untuk mencatat pemasukan, pengeluaran, tabungan, dan investasi secara terstruktur.",
     tools: ["Laravel", "XAMPP", "Vue"],
     dad: "400",
-    link: "https://github.com/arifinkhoirul/my-finance"
+    link: "https://myfinance.my.id"
   },
 ];
